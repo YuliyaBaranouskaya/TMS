@@ -30,7 +30,7 @@ public class Main {
         h2.findEmployee((Director) d2, "w1 w1");
 
         SearchEmployee h3 = new SearchEmployeeImpl();
-        h3.dismissEmployee((Director) d1, "w1 w1");
+        h3.dismissEmployee((Director) d1, "w2 w2");
 
         System.out.println(d1);
         System.out.println(d2);
